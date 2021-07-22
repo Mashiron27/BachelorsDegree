@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto" sans-serif;
+}
+
+.cctv-main {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto" sans-serif;
+}
+
+.cctv-option-panel {
+  background-color: #011627;
+  position: absolute;
+  right: 0;
+  top: 5vh;
+  color: #eaecef;
+  padding: 10px;
+  text-align: left;
+  min-width: 300px;
+  z-index: 5;
+  border-radius: 5px;
+  box-shadow: 3px 5px 25px 5px #011627;
+}
+
+.cctv-option-panel span {
+  margin-left: 10px;
+  font-size: 22px;
+  cursor: default;
+}
+
+.cctv-option-panel ul {
+  background-color: #011627;
+  color: #eaecef;
+  font-size: 16px;
+  user-select: none;
+  border: 3px solid #172b4d;
+  border-radius: 5px;
+}
+.cctv-option-panel li {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cctv-option-panel li:hover,
+li.active-li {
+  background-color: #172b4d;
+}
+
+.cctv-settings-button {
+  color: #011627;
+  text-align: right;
+  z-index: 3;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+.cctv-span {
+  font-size: 20px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #011627;
+  color: #eaecef;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 1%;
+  user-select: none;
+  z-index: 1;
+}
+
+.cctv-camera-label-container {
+  position: absolute;
+  width: 100%;
+  margin-top: 1%;
+  z-index: 2;
+  user-select: none;
+}
+.cctv-camera-label-container span {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  color: #eaecef;
+}
+
+.cctv-cameras-container {
+  position: absolute;
+  width: 100%;
+  top: 88vh;
+  z-index: 3;
+  user-select: none;
+}
+.cctv-cameras-container span {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #011627;
+  color: #eaecef;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.cctv-cameras-container span.active-span {
+  background-color: #172b4d;
+  color: #eaecef;
+  border: 5px solid white;
+}
+
+.cctv-camera {
+  /*	border: 3px solid black;
+	background-color: black;
+	color: black;
+	max-height: 85vh;
+	width: 85vw;*/
+
+  background-color: black;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 0;
+  width: 85vw;
+  height: 85vh;
+}
+
+.cctv-camera-canvas {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  width: 1060px;
+  height: 760px;
+}
+
+.cctv-oksign {
+  position: absolute;
+  margin-top: 2%;
+  left: 50%;
+  font-size: 50px;
+  background-color: #eaecef;
+  color: #011627;
+  border-radius: 5px;
+}
