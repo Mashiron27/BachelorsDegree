@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto" sans-serif;
+  color: #eaecef;
+}
+
+header {
+  padding: 10px;
+  background: #011627;
+  height: 40px;
+}
+
+.sidenav {
+  width: 240px;
+  background: #011627;
+  position: absolute;
+  height: 95%;
+  padding: 0 30px;
+  left: -100%;
+  top: 5%;
+
+  z-index: 5;
+   
+}
+
+.sidenav.active {
+  left: 0;
+}
+
+.logo {
+  width: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #eaecef;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a:hover,
+ul li a.active {
+  background: #172b4d;
+}
+
+ul li a svg {
+  margin-right: 10px;
+}
+
+header svg {
+  margin-top: 5px;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #c9c9c9;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.right #notificationsIcon {
+  color: #eaecef;
+  margin: 30px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: -5px;
+  margin-top: -48px;
+}
+
+.right #notificationsIcon:focus {
+  outline: none;
+}
+
+.right #notificationsIcon:hover {
+  cursor: pointer;
+}
+
+.right #profileIcon {
+  color: #eaecef;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: -35px;
+}
+
+.right #profileIcon:focus {
+  outline: none;
+}
+
+.right #profileIcon:hover {
+  cursor: pointer;
+}
+
+.notif-dropdown {
+  color: #eaecef;
+  align-items: center;
+  text-align: right;
+  
+  width:40%;
+  position: absolute;
+  background-color: #172b4d;
+
+  right: 50px;
+  
+  margin-top: 0;
+  margin-right: 75px;
+  z-index: 6;
+}
+
+	.notif-dropdown text{
+	font-size: 18px;
+	margin-right: 15px;
+	
+	
+	}
+	.notif-dropdown li{
+	margin: 20px 20px 20px 20px;
+	height: 25px;
+	overflow: hidden;
+	text-align: left;
+	}
+	
+	.notif-dropdown li:hover .tooltiptext{
+	visibility:visible;
+	}
+	
+.tooltiptext{
+  visibility: hidden;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+
+
+  /* Position the tooltip */
+  position: absolute;
+  right: 10%;
+  z-index: 8;
+}	
+
+
+.prof-dropdown {
+
+  color: #eaecef;
+  align-items: center;
+  right: 40px;
+  
+  margin-top: 0;
+
+  
+  position: absolute;
+  background-color: #172b4d;
+
+  z-index: 6;
+
+}
+	.prof-dropdown li {
+	padding-right: 80px;
+	padding-left: 80px;
+	text-align: center;
+	}
+	
+.active-page {
+	background-color: lightblue;
+	color: #172b4d;
+}	
+	
+	.active-page:hover{
+		color: #eaecef;
+	}
+	
+	
+.my-class{
+	fill: red;
+	stroke: green;
+}	
+
+.my-class.active{
+	fill:green;
+}
+	
+
+	
+	
+	
+	
+	
